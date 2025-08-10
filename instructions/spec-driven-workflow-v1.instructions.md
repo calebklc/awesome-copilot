@@ -9,9 +9,9 @@ Bridge the gap between requirements and implementation.
 
 **Maintain these artifacts at all times:**
 
-- **`requirements.md`**: User stories and acceptance criteria in structured EARS notation.
-- **`design.md`**: Technical architecture, sequence diagrams, implementation considerations.
-- **`tasks.md`**: Detailed, trackable implementation plan.
+- **`specs/requirements.md`**: User stories and acceptance criteria in structured EARS notation.
+- **`specs/design.md`**: Technical architecture, sequence diagrams, implementation considerations.
+- **`specs/tasks.md`**: Detailed, trackable implementation plan.
 
 ## Universal Documentation Framework
 
@@ -122,7 +122,7 @@ For use in pull request summaries or executive summaries.
     - Re-run ANALYZE phase after research.
     - Escalate only if confidence remains low.
 
-- [ ] **Document technical design in `design.md`:**
+- [ ] **Document technical design in `specs/design.md`:**
   - **Architecture:** High-level overview of components and interactions.
   - **Data Flow:** Diagrams and descriptions.
   - **Interfaces:** API contracts, schemas, public-facing function signatures.
@@ -133,7 +133,7 @@ For use in pull request summaries or executive summaries.
 
 - [ ] **Define unit testing strategy.**
 
-- [ ] **Create implementation plan in `tasks.md`:**
+- [ ] **Create implementation plan in `specs/tasks.md`:**
   - For each task, include description, expected outcome, and dependencies.
 
 **Critical Constraint:**
@@ -227,7 +227,7 @@ For use in pull request summaries or executive summaries.
     1. Executive summary.
     2. Changelog from **Streamlined Action Log**.
     3. Links to validation artifacts and Decision Records.
-    4. Links to final `requirements.md`, `design.md`, and `tasks.md`.
+    4. Links to final `specs/requirements.md`, `specs/design.md`, and `specs/tasks.md`.
 - [ ] Finalize workspace.
       - Archive intermediate files, logs, and temporary artifacts to `.agent_work/`.
 - [ ] Continue to next task.
@@ -250,7 +250,7 @@ For use in pull request summaries or executive summaries.
    - Revisit the DESIGN phase.
    - Update technical design, plans, or dependencies as needed.
 3. **Re-plan**:
-   - Adjust the implementation plan in `tasks.md` to address new findings.
+   - Adjust the implementation plan in `specs/tasks.md` to address new findings.
 4. **Retry execution**:
    - Re-execute failed steps with corrected parameters or logic.
 5. **Escalate**:
